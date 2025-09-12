@@ -9,5 +9,5 @@ def get_bank_details(ifsc_code):
         return {"error": "Invalid IFSC or API error"}
 
 # Example usage
-details = get_bank_details("HDFC0006684")
+details = get_bank_details("HDFC0006685")
 print(details)

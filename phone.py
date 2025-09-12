@@ -5,7 +5,7 @@ numbers = [
     "+14082747378",
     "+61724375187",
     "+41728424692",
-    "+917986805005",
+    "+917658098420",
 ]
 
 print("\nPhone number location and carrier info\n")

@@ -1,15 +1,18 @@
-from turtle import *
-from colorsys import *
-speed(0)
+from turtle import * 
+from colorsys import * 
+setpos (0, 80) 
+speed (0)
 bgcolor('black')
-h = 0
-for i in range(75):
-    color(hsv_to_rgb(h, 1, 1))
-    h+= 0.014
-    left(1)
-    forward(1)
-    for j in range(3):
-        left(2)
-        circle(150)
-        hideturtle()
-        done()
+pensize(2)
+h = 0.71
+for i in range(150):
+    c = hsv_to_rgb(h, 1, 1)
+    color(c)
+    h += 0.004
+    circle(140 -1, 90)
+    lt(90)
+    lt(20)
+    circle(140 - 1, 90)
+    lt(18)
+hideturtle()
+done() 
