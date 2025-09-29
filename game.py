@@ -5,7 +5,7 @@ import os
 
 # Initialize pygame
 pygame.init()
-pygame.mixer.init()
+
 
 # Screen settings
 WIDTH, HEIGHT = 600, 600
